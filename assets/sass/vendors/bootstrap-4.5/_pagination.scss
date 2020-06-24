@@ -17,6 +17,7 @@
   background-color: $white;
   border: $pagination-border-width solid $Lightgray;
 
+
   &:hover {
     z-index: 2;
     color: $Raisinblack;
@@ -37,11 +38,15 @@
     .page-link {
       margin-left: 0;
       @include border-left-radius($border-radius);
+      border-bottom-left-radius: 1.25rem;
+      border-top-left-radius: 1.25rem;
     }
   }
   &:last-child {
     .page-link {
       @include border-right-radius($border-radius);
+      border-bottom-right-radius: 1.25rem;
+      border-top-right-radius: 1.25rem;
     }
   }
 
