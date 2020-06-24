@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+  font-family: $Playfair;
+  font-weight: $Bold;
+  font-style: $Italic;
+  color: $white;
+  font-size: $xx-large;
+}
+
+h3{
+  font-family: $Playfair;
+  font-weight: $Regular;
+  font-style: $Normal;
+  font-size: $large;
+  color: $Nickel;
+}
+
+h4{
+  font-family: $Playfair;
+  font-weight: $Bold;
+  font-style: $Italic;
+  font-size: $x-large;
+  text-align: center;
+
+}
+
+h5{
+  font-family: $Roboto;
+  font-weight: $Light;
+  font-style: $Normal;
+  font-size: $large;
+  text-align: center;
+}
+
+p {
+  font-family: $Roboto;
+  font-weight: $Light;
+  font-style: $Normal;
+  font-size: $medium;
+  line-height: 50px;
+
+}

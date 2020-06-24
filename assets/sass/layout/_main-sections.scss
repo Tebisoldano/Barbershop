@@ -1,0 +1,68 @@
+.main {
+  padding-top: 6rem;
+}
+
+.main__section-buttons{
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.main__section-naomi{
+  padding-top: 5rem;
+  padding-bottom: 5em;
+  border: 1px solid;
+  border-color: $Platinum;
+
+
+}
+
+.main__section-naomi-img{
+  vertical-align: middle;
+}
+
+.main__section-naomi-img-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  display: block;
+  margin: auto;
+}
+
+.main__section-naomi-titulos{
+  margin-top: 4rem;
+
+}
+
+.main__section-naomi-content{
+  margin-top: 3rem;
+}
+
+
+.main__section-pagina {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $Platinum;
+}
+
+
+.pagination-border{
+  border-left-radius: 0.25rem;
+  display: flex;
+  list-style: none;
+}
+
+span{
+  color: $Spanishpink;
+
+
+
+&:hover{
+  color: $Raisinblack;
+
+}
+
+&:active {
+  color: $Platinum;
+
+}
+}

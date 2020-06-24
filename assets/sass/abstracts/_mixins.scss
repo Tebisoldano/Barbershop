@@ -1,0 +1,6 @@
+//handle laptop size media jquery
+@mixin laptop-view {
+  @media(min-width: #{$min-laptop}) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+.main__buttons-big{
+  border-radius: 20px;
+  padding: .7rem 2rem;
+}
+
+.main__button{
+  color: $white;
+  background-color: $Nickel;
+
+
+&:hover{
+  color: $white;
+  background-color: $Lightgray;
+}
+
+&:focus{
+  border: 1px solid;
+  border-color: $Lightgray;
+
+}
+}
